@@ -15,7 +15,7 @@ from tkinter import messagebox
 
 
 class CreditCardPage(tk.Tk):
-    stripe.api_key = "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"
+    stripe.api_key = ""
 
     def connectWithDatabase(self):
         cred = firebase_admin.credentials.Certificate(
